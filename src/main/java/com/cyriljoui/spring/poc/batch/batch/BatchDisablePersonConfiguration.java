@@ -63,8 +63,8 @@ public class BatchDisablePersonConfiguration {
     }
 
     @Bean
-    public DisablePersonItemProcessor disablePersonItemProcessor() {
-        return new DisablePersonItemProcessor();
+    public DisablePersonProcessor disablePersonItemProcessor() {
+        return new DisablePersonProcessor();
     }
     // end::readerwriterprocessor[]
 
